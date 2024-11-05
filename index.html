@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsivo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sabor & Arte</title>
+  </head>
+  <body>
+    <header class="menu">
+      <nav>
+        <section class="title">
+          <h1>Sabor & Arte</h1>
+          <p>Alguns de nossos sabores mágicos.</p>
+        </section>
+        <ul>
+          <li>
+            <a href="#almoco">Almoço</a>
+            <a href="#cafe">Café</a>
+            <a href="#meu_local">Meu Local</a>
+            <a href="#entre_em_contato">Entre em contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="conteudo" id="almoco">
+      <h1>Almoço</h1>
+      <div class="produtos">
+        <div class="produto">
+          <img
+            src="https://th.bing.com/th/id/R.d899366df3b5e554c42b3426f1e0ae71?rik=Q%2fGeCS2HJGMNWA&pid=ImgRaw&r=0"
+            alt="Porcao de arros"
+          />
+          <h2>Porção de arrós</h2>
+          <p>R$ 15,00</p>
+        </div>
+        <div class="produto">
+          <img
+            src="https://i0.statig.com.br/bancodeimagens/bq/0e/if/bq0eife48zjtp6arb77mvw5c3.jpg"
+            alt="Frango assado"
+          />
+          <h2>Frango assado</h2>
+          <p>R$ 25,00</p>
+        </div>
+        <div class="produto">
+          <img
+            src="https://th.bing.com/th/id/R.248100cdd5a8eda7806f0d7ef95ae7de?rik=L98vxbjO5j79Rw&pid=ImgRaw&r=0"
+            alt="Suco de laranja"
+          />
+          <h2>Suco</h2>
+          <p>R$ 8,00</p>
+        </div>
+      </div>
+    </section>
+    <section class="conteudo" id="cafe">
+      <h1>Café da manhã</h1>
+      <div class="produtos">
+        <div class="produto">
+          <img
+            src="https://th.bing.com/th/id/R.518be1d03a9dcb0cca1ce2d30ee51f1f?rik=xavIEFDXT%2b%2fgOw&pid=ImgRaw&r=0"
+            alt="Café"
+          />
+          <h2>Café</h2>
+          <p>R$ 15,00</p>
+        </div>
+        <div class="produto">
+          <img
+            src="https://img.freepik.com/premium-photo/milk-jug-glass-wooden-table_894067-16190.jpg"
+            alt="Leite"
+          />
+          <h2>Leite</h2>
+          <p>R$ 25,00</p>
+        </div>
+        <div class="produto">
+          <img
+            src="https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/07/Como-conservar-o-pao-frances-fresquinho-por-mais-tempo.jpg"
+            alt="Pão"
+          />
+          <h2>Pão</h2>
+          <p>R$ 8,00</p>
+        </div>
+      </div>
+    </section>
+    <section class="meu_local" id="meu_local">
+      <h1>Meu Local</h1>
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.3653366647164!2d-122.4194154846819!3d37.7749297797591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c4f3f38b1%3A0xa748d53cb1d2c49f!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1615999999999!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+    <section id="entre_em_contato">
+      <h1>Entre em Contato</h1>
+      <form action="#" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <div class="content">
+      <h1>Bem-vindo ao Meu Site</h1>
+      <p>Sabor & Arte</p>
+    </div>
+
+    <footer>
+      <p>Desenvolvido por <a href="#">Jecsklay Mattos</a></p>
+    </footer>
+  </body>
+</html>
